@@ -124,9 +124,10 @@ p {
 .box1 img,
 .box2 img,
 .box3 img {
-    width:10%;
-    background-color: white;
-/*     padding: 15px; */
+    width: 80%;
+    /* background-color: white; */
+    border: 2px solid red;
+    padding: 15px;
     border-radius: 15px;
     transition-duration: 1s;
     margin-bottom: 10px;
@@ -143,6 +144,7 @@ p {
 .box1 button,
 .box2 button,
 .box3 button {
+    margin-left: 25%;
     padding: 13px 30px;
     margin-left: 23%;
     background-color: red;
